@@ -1,0 +1,93 @@
+#crystal1, #crystal2, #crystal3, #crystal4 {
+	width: 250px;
+	/* height: 400px; */
+}
+
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 50px;
+    font-size: 50px;
+	margin: 0 0 25px 0;
+	color: #5F4B8B;
+	}
+	
+h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 20px;
+	margin: 0 0 20px 0;
+	color: #5F4B8B;
+	}
+	
+h3 {
+	font-family: 'Grand Hotel', cursive;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 20px;
+	margin: 0 0 20px 0;
+	color: #5F4B8B;
+	}	
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+	margin: 0 0 15px 0;
+	color: #00A68C;
+	}
+	
+body {
+	font-family: 'Dosis', cursive;
+	background: #F0EDE5;
+	color: #5F4B8B;
+	margin: 100px;
+	text-align: center;
+}
+
+#crystals {
+	margin: -20px;
+	padding: 50px;
+	cursor: pointer;
+}
+
+#targetNumber, #yourNumber,
+#wins, #losses {
+	margin-top: -15px;
+	/* float: left; */
+}
+
+#top, #bottom,
+#left, #right {
+	background: #5F4B8B;
+	position: fixed;
+}
+
+#left, #right {
+	top: 0; bottom: 0;
+	width: 20px;
+}
+
+
+#top, #bottom {
+	/* position: fixed; */
+	/* how do I get the bottom border only when the user has scrolled to the bottom? */
+	left: 0; right: 0;
+	height: 20px;
+}
+	#top { 
+		top: 0; 
+	}
+	#bottom { 
+		bottom: 0; 
+	}
+
+	#left { 
+		left: 0; 
+	}
+	#right { 
+		right: 0; 
+	}
+
